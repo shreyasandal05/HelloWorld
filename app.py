@@ -87,7 +87,7 @@ print("Done")
 No i++(i.e. increment operator) in Python, cause integers in Python are 'immutable'. 
 You can reassign it but you can not increment it.
 > Python uses names and objects.
-i = 1  , here i is a name and 1 is the value of object of instance int
+i = 1  , here 1 is the value of object of type int, bound with name 'i'
 i = i + 1 
 '''
 

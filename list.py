@@ -60,7 +60,7 @@ print(id(x))
 print(id(y))  # same ids
 # NOTE:
 '''
- is faster than '==' operator
+ 'is' faster than '==' operator
 '''
 
 # program to remove duplicates in a list
@@ -134,3 +134,4 @@ output = ""
 for word in new_msg:
     output += emojis.get(word, word) + " "
 print(output)
+
